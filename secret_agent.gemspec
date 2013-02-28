@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Secret Agent Greetings}
   spec.homepage      = "http://dev.isis.org/secret_agent"
   spec.license       = "MIT"
+  spec.has_rdoc      = true
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
