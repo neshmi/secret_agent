@@ -21,7 +21,6 @@ Or install it yourself as:
 Once you've installed the gem, you can include the gem in your application:
 
     require 'secret_agent'
-
     puts SecretAgent.greet('Archer') #=> Greetings Agent Archer
 
 You can also use the gem as a command line utility:
